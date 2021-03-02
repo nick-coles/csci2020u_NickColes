@@ -1,0 +1,20 @@
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+
+<GridPane fx:controller="lab05.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+    <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="0">
+        <columns>
+            <TableColumn fx:id="studentID" text="StudentID"/>
+            <TableColumn fx:id="assignments" text="Assignments"/>
+            <TableColumn fx:id="midterms" text="Midterms"/>
+            <TableColumn fx:id="finalExam" text="Final Exam"/>
+            <TableColumn fx:id="finalMark" text="Final Mark"/>
+            <TableColumn fx:id="letterGrade" text="Letter Grade"/>
+        </columns>
+    </TableView>
+
+</GridPane>
